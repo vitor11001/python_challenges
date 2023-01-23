@@ -8,7 +8,7 @@ Crie uma função que recebe um dicionário com os nomes dos alunos reprovados e
     "FÍSICA": {"APROVADOS": [A,B,C], "REPROVADOS": [D,E,F,G,H]}, 
     ...
 }
-Após receber a entrada, retorne as chaves "APROVADOS_EM_TODAS" com os alunos numa tupla ordenada 
+Após receber a entrada, retorne um dicionário com as chaves "APROVADOS_EM_TODAS" com os alunos numa tupla ordenada 
 alfabeticamente, a chave "REPROVADOS" com uma tupla também ordenada alfabeticamente e por fim uma
 chave "DETALHES" com um dicionário que mostra os alunos reprovados ordenados pela quantidade de 
 matérias reprovadas. 
