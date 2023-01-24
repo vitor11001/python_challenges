@@ -8,8 +8,8 @@ Crie as funções a seguir:
 """
 
 def maior_idade_lista(idades):
-    idades = sorted(idades)
-    return idades[-1]
+    idades = tuple(sorted(idades))
+    return (idades[-1], )
 
 def idades_maior_menor_dicionario(idades):
     idades = sorted(idades)
@@ -19,8 +19,8 @@ def idades_tupla(idades):
     return tuple(sorted(idades))
 
 def main():
-    idades = [2,5,8,19,12,32,64,90,10,100,20]
-    print(maior_idade_lista(idades))
+    idades = [15,14,6,2,5,8,19,12,32,64,90,10,100,20]
+    print(f'Maior idade: {maior_idade_lista(idades)} Type: {type(maior_idade_lista(idades))}')
     print(idades_maior_menor_dicionario(idades))
     print(idades_tupla(idades))
 
