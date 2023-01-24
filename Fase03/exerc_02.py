@@ -8,7 +8,7 @@ Crie as funções a seguir:
 """
 
 def maior_idade_lista(idades):
-    idades = tuple(sorted(idades))
+    idades = sorted(idades)
     return (idades[-1], )
 
 def idades_maior_menor_dicionario(idades):
