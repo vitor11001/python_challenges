@@ -60,5 +60,5 @@ def main():
     "QUIMICA": {"APROVADOS": ['A','B','C', 'D', 'E'], "REPROVADOS": ['F','G','H']}}
     print(alunos_apro_repro(entrada))
 
-if __name__ == main():
+if __name__ == '__main__':
     main()
